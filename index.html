@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio DOM 3</title>
+    <style>
+        .titulo {
+            font-size: xx-large;
+            font-weight: bolder;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="dameParrafo()">Agregar Párrafo</button>
+    <div id="contenedor"></div>
+    <!-- Ejercicio 2: Crea un botón que:
+        Le pide al usuario (con prompt) un artículo y lo añade a la lista del ul ya creado
+    -->
+        <button onclick="lista()">Listado</button>
+        <ul></ul>
+        <hr>
+        <ul></ul>
+    <!--  Ejercicio 3: 
+      1.- Crea un botón con el texto: 'Crea con estilo'
+      2.- EL botón llamará a la función creaConEstilo
+      3.- Dicha función creará un div con tu nombre y apellidos, y
+      4.- Con el texto en negrita, tamaño extragrande y color rojo (con css) 
+      5.- Añade el div al final del body
+      -->
+      <button onclick="creaEstiloso()">Crea con estilo</button>
+      <script type="module" src="./main.js"></script>
+</body>
+</html>
