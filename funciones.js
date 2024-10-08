@@ -19,5 +19,7 @@ export function creaEstilo() {
     let div = document.createElement('div');
     div.innerHTML = 'Josemaría Gª de Polavieja';
     div.className = 'titulo';
+    div.style.color = 'red'; // Tengo que poner esta propiedad para poder cambiarla la primera vez en el array de divs
+    div.id = 'divEstiloso';
     return div;
 }
